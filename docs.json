@@ -76,13 +76,13 @@
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "Câu chuyện thành công",
+          "href": "https://www.filum.ai/customers",
+          "icon": "rocket"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://blog.filum.ai/",
           "icon": "newspaper"
         }
       ]

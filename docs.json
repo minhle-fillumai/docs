@@ -1,115 +1,129 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Filum AI Help Center",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/filumfav.png",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Hướng dẫn sử dụng",
-        "groups": [
-          {
-            "group": "Bắt đầu với Filum AI",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "mint",
+    "name": "Filum AI Help Center",
+    "colors": {
+        "primary": "#16A34A",
+        "light": "#07C983",
+        "dark": "#15803D"
+    },
+    "favicon": "/filumfav.png",
+    "navigation": {
+        "tabs": [
+            {
+                "tab": "Hướng dẫn sử dụng",
+                "groups": [
+                    {
+                        "group": "Bắt đầu với Filum AI",
+                        "pages": [
+                            "index",
+                            "quickstart",
+                            "development"
+                        ]
+                    },
+                    {
+                        "group": "Customization",
+                        "pages": [
+                            "essentials/settings",
+                            "essentials/navigation"
+                        ]
+                    },
+                    {
+                        "group": "Writing content",
+                        "pages": [
+                            "essentials/markdown",
+                            "essentials/code",
+                            "essentials/images",
+                            "essentials/reusable-snippets"
+                        ]
+                    },
+                    {
+                        "group": "AI tools",
+                        "pages": [
+                            "ai-tools/cursor",
+                            "ai-tools/claude-code",
+                            "ai-tools/windsurf"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Tài liệu API",
+                "groups": [
+                    {
+                        "group": "API documentation",
+                        "pages": [
+                            "api-reference/introduction"
+                        ]
+                    },
+                    {
+                        "group": "Endpoint examples",
+                        "pages": [
+                            "api-reference/endpoint/get",
+                            "api-reference/endpoint/create",
+                            "api-reference/endpoint/delete",
+                            "api-reference/endpoint/webhook"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "global": {
+            "anchors": [
+                {
+                    "anchor": "Documentation",
+                    "href": "https://mintlify.com/docs",
+                    "icon": "book-open-cover"
+                },
+                {
+                    "anchor": "Câu chuyện thành công",
+                    "href": "https://www.filum.ai/customers",
+                    "icon": "rocket"
+                },
+                {
+                    "anchor": "Blog",
+                    "href": "https://blog.filum.ai/",
+                    "icon": "newspaper"
+                }
             ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Tài liệu API",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Câu chuyện thành công",
-          "href": "https://www.filum.ai/customers",
-          "icon": "rocket"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://blog.filum.ai/",
-          "icon": "newspaper"
         }
-      ]
+    },
+    "logo": {
+        "light": "/logo/lightlogo.png",
+        "dark": "/logo/darklogo.png"
+    },
+    "fonts": {
+        "family": "Open Sans",
+        "weight": 400,
+        "source": "https://fonts.googleapis.com/css2 family=Open+Sans:wght@400;700&display=swap",
+        "format": "woff2",
+        "heading": {
+            "family": "Playfair Display",
+            "weight": 700
+        },
+        "body": {
+            "family": "Inter",
+            "weight": 400
+        }
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Support",
+                "href": "mailto:cs@filum.ai"
+            }
+        ],
+        "primary": {
+            "type": "button",
+            "label": "Truy cập Filum",
+            "href": "https://cx.filum.ai"
+        }
+    },
+    "footer": {
+        "socials": {
+            "facebook": "https://www.facebook.com/filumai/",
+            "youtube": "https://www.youtube.com/@filumai",
+            "linkedin": "https://www.linkedin.com/company/filum-ai/"
+        }
     }
-  },
-  "logo": {
-    "light": "/logo/lightlogo.png",
-    "dark": "/logo/darklogo.png"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:cs@filum.ai"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Truy cập Filum",
-      "href": "https://cx.filum.ai"
-    }
-  },
-  "footer": {
-    "socials": {
-      "facebook": "https://www.facebook.com/filumai/",
-      "youtube": "https://www.youtube.com/@filumai",
-      "linkedin": "https://www.linkedin.com/company/filum-ai/"
-    }
-  }
 }

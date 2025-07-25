@@ -93,13 +93,17 @@
         "dark": "/logo/darklogo.png"
     },
     "fonts": {
-        "family": "Open Sans",
+        "family": "Inter",
         "weight": 400,
-        "source": "https://fonts.googleapis.com/css2 family=Open+Sans:wght@400;700&display=swap",
+        "source": "ttps://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap",
         "format": "woff2",
         "heading": {
-            "family": "Playfair Display",
-            "weight": 700
+            "family": "Inter",
+            "weight": 600
+        },
+      "code": {
+            "family": "JetBrains Mono",
+            "weight": 400
         },
         "body": {
             "family": "Inter",
@@ -115,7 +119,7 @@
         ],
         "primary": {
             "type": "button",
-            "label": "Truy cập Filum",
+            "label": "Đăng nhập Filum AI",
             "href": "https://cx.filum.ai"
         }
     },

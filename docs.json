@@ -99,22 +99,22 @@
         "format": "woff2",
         "heading": {
             "family": "Inter",
-            "weight": 600
+            "weight": 700
         },
       "code": {
             "family": "JetBrains Mono",
-            "weight": 400
+            "weight": 500
         },
         "body": {
             "family": "Inter",
-            "weight": 400
+            "weight": 600
         }
     },
     "navbar": {
         "links": [
             {
-                "label": "Support",
-                "href": "mailto:cs@filum.ai"
+                "label": "Đăng ký",
+                "href": "https://www.filum.ai/book-demo"
             }
         ],
         "primary": {
